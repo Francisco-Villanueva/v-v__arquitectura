@@ -1,0 +1,62 @@
+.navbar-main-container{
+    display: grid;
+    grid-template-columns: .5fr 4fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0em;
+    height: 100%;
+    border-radius: 4em 0 0 4em;
+}
+.navbar-logo-container{
+    border-radius: 100em;
+}
+.navbar-logo-img{
+    width: 100%;
+}
+.navbar-links-container{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #000; */
+    justify-content: center;
+    gap: 1rem;
+}
+.navbar-links-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0000007c;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}.navbar-links-container p:hover{
+    font-size: 1.2rem ;
+    color: #000 ;
+    font-weight: 400 ;
+}
+
+.navbar-redes-container{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.navbar-redes-icon{
+    color: #0000007c;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+.icon-ig:hover{
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+   
+    border-radius: 20%; */
+    color:#d6249f;
+    
+}
+.icon-fb:hover{
+    color: #3b5998 ;
+}
+.icon-li:hover{
+    color: #0e76a8 ;
+}

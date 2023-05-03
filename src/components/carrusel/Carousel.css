@@ -1,0 +1,15 @@
+.carousel-main-container{
+    /* height: 60vh; */
+    display: grid;
+    place-items: center;
+}
+.carousel-items-container{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-img{
+   width: 100%;
+}
+
