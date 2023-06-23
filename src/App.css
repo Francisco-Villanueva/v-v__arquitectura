@@ -1,4 +1,7 @@
 .App{
     font-family: 'Montserrat';
     background-color: #000;
+    padding: 0 4em;
+    min-height: 100vh;
+    margin: 0 auto;
 }

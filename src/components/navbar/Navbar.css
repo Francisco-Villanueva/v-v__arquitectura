@@ -1,40 +1,55 @@
 .navbar-main-container{
+    position: fixed;
+    top: 0;
+    left: 5vw;
     display: grid;
-    grid-template-columns: .5fr 4fr 1fr;
+    width: 95vw;
+    grid-template-columns: .1fr 4fr 1fr;
     gap: 2rem;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
     padding: 0em;
-    height: 100%;
     border-radius: 4em 0 0 4em;
+    background: rgba(206, 206, 206, 0.80);
+    box-shadow: 1px 1px 8px #000;
+    z-index: 100;
 }
 .navbar-logo-container{
     border-radius: 100em;
 }
 .navbar-logo-img{
-    width: 100%;
+    width: 100px;
+/* height: 7.5rem   ; */
+/* flex-shrink: 0; */
+border-radius: 500px;
+background: #FFF;
 }
 .navbar-links-container{
     display: flex;
     align-items: center;
-    /* border: 1px solid #000; */
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
-.navbar-links-container p{
+.inactive{
     font-size: 1rem;
     font-weight: 400;
     color: #0000007c;
     text-decoration: none;
     cursor: pointer;
     transition: all .15s ease-in-out;
-}.navbar-links-container p:hover{
-    font-size: 1.2rem ;
-    color: #000 ;
+}
+.inactive:hover{
+    transform: scale(1.07);
+    color: #cecece ;
     font-weight: 400 ;
 }
-
+.active{
+    /* font-size: 1.2rem !important; */
+    font-weight: 400 ;
+    color: #fff !important;
+    transform: scale(1.15);
+    border-bottom: .5px solid #fffefe73;
+}
 .navbar-redes-container{
     /* border: 1px solid #000; */
     display: flex;
@@ -47,10 +62,12 @@
     cursor: pointer;
     transition: all .15s ease-in-out;
 }
-.icon-ig:hover{
-    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-   
-    border-radius: 20%; */
+
+.navbar-redes-icon:hover{
+    color: #fff ;
+    transform: scale(1.15);
+}
+/* .icon-ig:hover{
     color:#d6249f;
     
 }
@@ -59,4 +76,4 @@
 }
 .icon-li:hover{
     color: #0e76a8 ;
-}
+} */

@@ -1,15 +1,16 @@
 .carousel-main-container{
-    /* height: 60vh; */
-    display: grid;
-    place-items: center;
-}
-.carousel-items-container{
-    width: 60vw;
-    display: flex;
-    align-items: center;
+    display: flex; 
+    width: 100%;
     justify-content: center;
 }
+
+
+.carousel-items-container{
+    width: 40vw;
+    border-radius: 1em;
+}
 .carousel-img{
-   width: 100%;
+    width: 100%;
+    border-radius: 1em;
 }
 

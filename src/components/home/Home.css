@@ -1,6 +1,23 @@
 .home-main-container{
-        /* height: 100vh; */
-    display: grid;
-    grid-template-rows: .5fr 7fr;
-    gap: 1rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 100vh;
+}
+
+
+.container_navBarCompononent{
+    margin-bottom: 100px;
+    padding-left: 4em;
+}
+.container_carruselCompononent img{
+    width: 50vw;
+}
+.Home-body{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 4em;
+    color: #fff;
 }
